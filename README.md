@@ -23,6 +23,51 @@ The project investigates:
 - Benchmarking against naïve forecasting baselines
 
 
+## Project Structure
+
+```text
+electricity_demand_forecasting_system/
+
+├── data/
+│   └── raw_consumption_by_fsa/
+│       ├── *.zip
+│
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   ├── 02_training.ipynb
+│   └── 03_training_more_data.ipynb
+│
+├── images/
+│   ├── xgboost_actual_vs_predicted.png
+│   └── lstm_actual_vs_predicted.png
+│
+├── models/
+│   ├── xgboost.pkl
+│   └── lstm.pth
+│
+└── README.md
+```
+
+
+## Skills Demonstrated
+
+- Time Series Forecasting
+- Electricity Demand Forecasting
+- Feature Engineering
+- Lag-Based Modeling
+- Sequence Modeling
+- XGBoost
+- PyTorch
+- LSTM Neural Networks
+- Model Benchmarking
+- Forecast Evaluation (MAE, RMSE)
+- Data Preprocessing
+- Pandas
+- NumPy
+- Scikit-Learn
+- Data Visualization
+
+
 ## Dataset
 
 Source:
@@ -247,32 +292,6 @@ images/lstm_actual_vs_predicted.png
 Actual versus predicted hourly electricity demand using a sequence-based LSTM model.
 
 
-## Project Structure
-
-```text
-electricity_demand_forecasting_system/
-
-├── data/
-│   └── raw_consumption_by_fsa/
-│       ├── *.zip
-│
-├── notebooks/
-│   ├── 01_exploration.ipynb
-│   ├── 02_training.ipynb
-│   └── 03_training_more_data.ipynb
-│
-├── images/
-│   ├── xgboost_actual_vs_predicted.png
-│   └── lstm_actual_vs_predicted.png
-│
-├── models/
-│   ├── xgboost.pkl
-│   └── lstm.pth
-│
-└── README.md
-```
-
-
 ## Technologies Used
 
 - Python
@@ -305,3 +324,12 @@ Potential extensions include:
 - Transformer-based forecasting models
 - Model deployment through a REST API or dashboard
 
+
+## License
+
+MIT License – free to use, modify, and distribute.
+
+
+## Credits
+
+Created by Meysam Rezaee
